@@ -72,7 +72,7 @@ export default function SignIn({ navigation }) {
       <View style={globalStyle.screen}>
         <Input
           label='Email Address'
-          placeholder='Type your email address'
+          placeholder='Enter your email address'
           value={emailAddress}
           onChangeText={value => emailAddressOnChangeText(value)}
           isError={emailAddressError}
@@ -80,7 +80,7 @@ export default function SignIn({ navigation }) {
         <Gap h={16} />
         <Input
           label='Password'
-          placeholder='Type your password'
+          placeholder='Enter your password'
           value={password}
           onChangeText={value => passwordOnChangeText(value)}
           hideText={true}
