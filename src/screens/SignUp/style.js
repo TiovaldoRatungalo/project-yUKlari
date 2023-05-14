@@ -10,7 +10,7 @@ export default StyleSheet.create({
     borderRadius: 110/2,
     borderWidth: 1,
     borderStyle: 'dashed',
-    borderColor: 'purple',
+    borderColor: '#8D92A3',
 
     padding: 10
   },
