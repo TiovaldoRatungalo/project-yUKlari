@@ -16,7 +16,7 @@ export default StyleSheet.create({
     borderColor: globalStyle.color.primary,
 
     fontWeight: '500',
-    fontStyle: 'italic',
+    fontStyle: 'ariel',
     fontSize: 36,
     color: globalStyle.color.black
   }
