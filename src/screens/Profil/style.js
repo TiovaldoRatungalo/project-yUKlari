@@ -22,8 +22,8 @@ export default StyleSheet.create({
   mainInfoText: (underline=false) => ({
     fontWeight: '500',
     textDecorationLine: (underline) ? 'underline' : 'none',
-    fontSize: 14,
-    color: '#000000'
+    fontSize: 15,
+    color: 'purple'
   }),
   mainInfoLeft: {
     flex: 1,
