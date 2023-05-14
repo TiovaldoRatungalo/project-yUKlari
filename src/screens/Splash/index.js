@@ -12,7 +12,7 @@ import { yUKlari } from '../../assets/images';
 export default function Splash({ navigation }) {
   useEffect(() => {
     setTimeout(() => {
-      navigation.replace('SignIn');
+      navigation.replace('Home');
     }, 1500);
   }, []);
 
